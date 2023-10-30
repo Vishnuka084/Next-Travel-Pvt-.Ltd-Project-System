@@ -9,6 +9,7 @@
         <module name="Next-TravelPvt-Ltd" />
         <module name="user_service" />
         <module name="vehicale_service" />
+        <module name="hotel_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hotel_service" options="-parameters" />
       <module name="user_service" options="-parameters" />
       <module name="vehical_service" options="-parameters" />
       <module name="vehicale_service" options="-parameters" />
