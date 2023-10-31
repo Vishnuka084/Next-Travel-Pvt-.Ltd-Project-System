@@ -3,10 +3,20 @@ package lk.ijse.vishnuka084.user_service.api;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("api/v1/user")
+@RequestMapping("/api/v1/users")
 public class UserController {
 
-    @PostMapping(path = "/save")
+    @PostMapping()
+    public String saveUser(){
+        return "save User";
+    }
+
+    @GetMapping
+    public String findUser(){
+        return "find User";
+    }
+
+/*    @PostMapping(path = "/save")
     public String saveUser(){
         return "save User";
     }
@@ -19,5 +29,5 @@ public class UserController {
     @PutMapping(path = "/update")
     public String updateUser(){
         return "Update user";
-    }
+    }*/
 }
