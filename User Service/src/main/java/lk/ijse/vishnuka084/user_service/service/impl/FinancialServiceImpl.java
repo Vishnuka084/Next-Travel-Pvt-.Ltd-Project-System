@@ -1,10 +1,11 @@
 package lk.ijse.vishnuka084.user_service.service.impl;
 
-import lk.dhanushkaTa.userservice.dto.FinancialDTO;
-import lk.dhanushkaTa.userservice.dto.TravelPackageDTO;
-import lk.dhanushkaTa.userservice.feign.TravelPackage;
-import lk.dhanushkaTa.userservice.service.FinancialService;
-import lk.dhanushkaTa.userservice.util.ResponseUtil;
+
+import lk.ijse.vishnuka084.user_service.dto.FinancialDTO;
+import lk.ijse.vishnuka084.user_service.dto.TravelPackageDTO;
+import lk.ijse.vishnuka084.user_service.feign.TravelPackage;
+import lk.ijse.vishnuka084.user_service.service.FinancialService;
+import lk.ijse.vishnuka084.user_service.util.ResponseUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
