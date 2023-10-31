@@ -8,14 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Next-TravelPvt-Ltd" />
-        <module name="user_service" />
         <module name="guide_service" />
         <module name="vehicale_service" />
+        <module name="user-service" />
         <module name="hotel_service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="hotel_services" target="17" />
+      <module name="user_service" target="17" />
       <module name="vehical_service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +25,7 @@
       <module name="guide_service" options="-parameters" />
       <module name="hotel_service" options="-parameters" />
       <module name="hotel_services" options="-parameters" />
+      <module name="user-service" options="-parameters" />
       <module name="user_service" options="-parameters" />
       <module name="vehical_service" options="-parameters" />
       <module name="vehicale_service" options="-parameters" />
