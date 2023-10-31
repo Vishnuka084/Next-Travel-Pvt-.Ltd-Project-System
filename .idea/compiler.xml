@@ -14,6 +14,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hotel_services" target="17" />
       <module name="vehical_service" target="17" />
     </bytecodeTargetLevel>
   </component>
@@ -21,6 +22,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="guide_service" options="-parameters" />
       <module name="hotel_service" options="-parameters" />
+      <module name="hotel_services" options="-parameters" />
       <module name="user_service" options="-parameters" />
       <module name="vehical_service" options="-parameters" />
       <module name="vehicale_service" options="-parameters" />
