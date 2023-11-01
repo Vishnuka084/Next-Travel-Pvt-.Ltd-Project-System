@@ -8,7 +8,7 @@
         <version>2.7.17</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>lk.vishnuka084</groupId>
+    <groupId>lk.NextTravelPvt.Ltd.vishnuka084</groupId>
     <artifactId>hotel-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>hotel-service</name>
