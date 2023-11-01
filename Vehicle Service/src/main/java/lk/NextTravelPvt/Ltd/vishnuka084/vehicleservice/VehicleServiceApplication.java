@@ -1,4 +1,4 @@
-package lk.ijse.vishnuka084.vehicleservice;
+package lk.NextTravelPvt.Ltd.vishnuka084.vehicleservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class VehicleServiceApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(VehicleServiceApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(VehicleServiceApplication.class, args);
+	}
 
 }

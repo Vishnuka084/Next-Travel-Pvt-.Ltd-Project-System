@@ -10,6 +10,7 @@
         <module name="Next-TravelPvt-Ltd" />
         <module name="guide-service" />
         <module name="user-service" />
+        <module name="vehicle-service" />
         <module name="hotel-service" />
       </profile>
     </annotationProcessing>
@@ -20,7 +21,6 @@
       <module name="user_service" target="17" />
       <module name="vehical_service" target="17" />
       <module name="vehicale_service" target="17" />
-      <module name="vehicle-service" target="1.8" />
       <module name="vehicle_service" target="17" />
     </bytecodeTargetLevel>
   </component>
