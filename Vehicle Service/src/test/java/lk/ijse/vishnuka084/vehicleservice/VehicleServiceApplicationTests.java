@@ -1,10 +1,10 @@
-package lk.ijse.vishnuka084.vehicale_service;
+package lk.ijse.vishnuka084.vehicleservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VehicaleServiceApplicationTests {
+class VehicleServiceApplicationTests {
 
     @Test
     void contextLoads() {

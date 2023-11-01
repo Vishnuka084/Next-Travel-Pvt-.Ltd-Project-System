@@ -1,13 +1,13 @@
-package lk.ijse.vishnuka084.vehicale_service;
+package lk.ijse.vishnuka084.vehicleservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class VehicaleServiceApplication {
+public class VehicleServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(VehicaleServiceApplication.class, args);
+        SpringApplication.run(VehicleServiceApplication.class, args);
     }
 
 }
