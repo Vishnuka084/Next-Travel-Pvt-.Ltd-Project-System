@@ -9,7 +9,14 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
+/**
+ * Created by Vishnuka Yahan
+ *
+ * @author  : Vishnuka Yahan
+ * @data    : 11/1/2023
+ * @project : Next TravelPvt. Ltd
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

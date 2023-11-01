@@ -5,7 +5,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-
+/**
+ * Created by Vishnuka Yahan
+ *
+ * @author  : Vishnuka Yahan
+ * @data    : 11/1/2023
+ * @project : Next TravelPvt. Ltd
+ *
+ */
 @RestControllerAdvice
 @CrossOrigin
 public class ExceptionHandler {
