@@ -13,3 +13,5 @@ public class HotelServiceApplication {
 	}
 
 }
+
+// -----------------hotel-service
