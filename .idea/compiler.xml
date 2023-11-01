@@ -11,10 +11,11 @@
         <module name="guide_service" />
         <module name="vehicale_service" />
         <module name="user-service" />
-        <module name="hotel_service" />
+        <module name="hotel-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hotel_service" target="17" />
       <module name="hotel_services" target="17" />
       <module name="user_service" target="17" />
       <module name="vehical_service" target="17" />
@@ -23,6 +24,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="guide_service" options="-parameters" />
+      <module name="hotel-service" options="-parameters" />
       <module name="hotel_service" options="-parameters" />
       <module name="hotel_services" options="-parameters" />
       <module name="user-service" options="-parameters" />
