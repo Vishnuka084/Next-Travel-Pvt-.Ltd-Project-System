@@ -8,8 +8,7 @@
         <version>2.7.17</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>
-        lk.NextTravelPvt.Ltd.vishnuka084</groupId>
+    <groupId>lk.NextTravelPvt.Ltd.vishnuka084</groupId>
     <artifactId>service-registry</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>service-registry</name>
