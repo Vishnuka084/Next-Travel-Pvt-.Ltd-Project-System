@@ -10,6 +10,7 @@
         <module name="vehicle-service" />
         <module name="Next-TravelPvt-Ltd" />
         <module name="travelpackage-service" />
+        <module name="api-gateway" />
         <module name="guide-service" />
         <module name="user-service" />
         <module name="service-registry" />
@@ -28,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway" options="-parameters" />
       <module name="guide-service" options="-parameters" />
       <module name="guide_service" options="-parameters" />
       <module name="hotel-service" options="-parameters" />
