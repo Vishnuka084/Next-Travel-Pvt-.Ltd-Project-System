@@ -1,5 +1,8 @@
 package lk.NextTravelPvt.Ltd.vishnuka084.serviceRegistry;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+
 /**
  * Created by Vishnuka Yahan
  *
@@ -7,5 +10,7 @@ package lk.NextTravelPvt.Ltd.vishnuka084.serviceRegistry;
  * @data : 11/2/2023
  * @project : Next TravelPvt. Ltd
  */
+@SpringBootApplication
+@EnableEurekaServer
 public class ServiceRegistryApplication {
 }
