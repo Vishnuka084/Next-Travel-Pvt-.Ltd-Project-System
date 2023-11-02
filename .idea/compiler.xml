@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="vehicle-service" />
         <module name="Next-TravelPvt-Ltd" />
         <module name="travelpackage-service" />
         <module name="guide-service" />
         <module name="user-service" />
-        <module name="vehicle-service" />
+        <module name="service-registry" />
         <module name="hotel-service" />
       </profile>
     </annotationProcessing>
@@ -32,6 +33,7 @@
       <module name="hotel-service" options="-parameters" />
       <module name="hotel_service" options="-parameters" />
       <module name="hotel_services" options="-parameters" />
+      <module name="service-registry" options="-parameters" />
       <module name="travelpackage-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
       <module name="user_service" options="-parameters" />
