@@ -1,26 +1,32 @@
-package lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.entity;
+package lk.ijse.travelPackage.HotelService.entity;
 
-import lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.embeded.Contact;
-import lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.embeded.RoomOption;
+
+import lk.ijse.travelPackage.HotelService.embeded.Contact;
+import lk.ijse.travelPackage.HotelService.embeded.RoomOption;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
+import javax.persistence.*;
+/**
+ * Created by Vishnuka Yahan
+ *
+ * @author  : Vishnuka Yahan
+ * @data    : 11/01/2023
+ * @project : Next TravelPvt. Ltd
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
 @Entity
-@Table(name = "hotel")
+
 public class Hotel {
     @Id
-    private String hotelId;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer hotelId;
 
     @Column(nullable = false)
     private String hotelName;
@@ -31,7 +37,7 @@ public class Hotel {
     @Column(nullable = false)
     private String hotelLocation;
 
-    @Column(nullable = false,columnDefinition = "TEXT")
+    @Column(nullable = false)
     private String hotelGmapLocation;
 
     @Column(nullable = false,unique = true)
@@ -49,7 +55,7 @@ public class Hotel {
     @Column(nullable = false)
     private RoomOption hotelRoomOpt;
 
-    @Column(columnDefinition = "TEXT")
-    private String hotelImage;
+    @Lob
+    private byte[] hotelImage;
 
 }

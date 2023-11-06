@@ -1,18 +1,25 @@
-package lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.dto;
+package lk.ijse.travelPackage.HotelService.dto;
 
-import lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.embeded.Contact;
-import lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.embeded.RoomOption;
+import lk.ijse.travelPackage.HotelService.embeded.Contact;
+import lk.ijse.travelPackage.HotelService.embeded.RoomOption;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
-
+/**
+ * Created by Vishnuka Yahan
+ *
+ * @author  : Vishnuka Yahan
+ * @data    : 11/01/2023
+ * @project : Next TravelPvt. Ltd
+ *
+ */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
 public class HotelDTO {
-    private String hotelId;
+    private Integer hotelId;
     private String hotelName;
     private String hotelCategory;
     private String hotelLocation;

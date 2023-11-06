@@ -1,4 +1,4 @@
-package lk.NextTravelPvt.Ltd.vishnuka084.hotelservice.embeded;
+package lk.ijse.travelPackage.HotelService.embeded;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
