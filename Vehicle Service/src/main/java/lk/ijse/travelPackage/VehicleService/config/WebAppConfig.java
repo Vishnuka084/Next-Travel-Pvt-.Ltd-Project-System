@@ -1,6 +1,6 @@
-package lk.NextTravelPvt.Ltd.vishnuka084.vehicleservice.config;
+package lk.ijse.travelPackage.VehicleService.config;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,17 +8,14 @@ import org.springframework.context.annotation.Configuration;
  * Created by Vishnuka Yahan
  *
  * @author  : Vishnuka Yahan
- * @data    : 11/1/2023
+ * @data    : 10/25/2023
  * @project : Next TravelPvt. Ltd
  *
  */
 @Configuration
 public class WebAppConfig {
-
     @Bean
     public ModelMapper modelMapper(){
         return new ModelMapper();
     }
-
-
 }

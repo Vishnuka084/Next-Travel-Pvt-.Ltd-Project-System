@@ -1,44 +1,85 @@
-package lk.NextTravelPvt.Ltd.vishnuka084.vehicleservice.dto;
+package lk.ijse.travelPackage.VehicleService.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+
+import javax.persistence.*;
 /**
  * Created by Vishnuka Yahan
  *
  * @author  : Vishnuka Yahan
- * @data    : 11/1/2023
+ * @data    : 10/25/2023
  * @project : Next TravelPvt. Ltd
  *
  */
+@Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 @ToString
-//@RequiredArgsConstructor
-public class VehicleDTO {
+public class Vehicle {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer vehicleId;
 
-    private String vehicleId;
+    @Column(nullable = false)
     private String vehicleBrand;
-    private String vehicleCategory; //Rconomy,Mid-range,Luxury,Super Luxury
+
+    @Column(nullable = false)
+    private String vehicleCategory;
+
+    @Column(nullable = false)
     private String vehicleType; //van,car,suv
-    private String vehicleSearchType; // P/A,P/M,D/A,D/M
+
+    @Column(nullable = false)
     private String vehicleHybridOrNot;
+
+    @Column(nullable = false)
     private String vehicleFuelType;
+
+    @Column(nullable = false)
     private int    vehicleFuelUsage;
+
+    @Column(nullable = false)
     private int    vehicleSeatCapacity;
+
+    @Column(nullable = false)
+    private String vehicleTransmissionType;
+
+    @Column(nullable = false)
     private double vehicleFee_for_1km;
+
+    @Column(nullable = false)
     private double vehicleFee_for_Day;
+
+    @Column(nullable = false)
     private String vehicleStatus;
-    private String vehicleTransmissionType;//auto/manual
+
+    @Column(nullable = false)
     private String vehicleDriverName;
+
+    @Column(nullable = false)
     private String vehicleDriverContact;
 
+    ///////////////////////////////////////////////
+
+    @Lob
     private byte[] vehicleDriverLicense;
+
+    @Lob
     private byte[] frontImage;
+
+    @Lob
     private byte[] rearImage;
+
+    @Lob
     private byte[] sideImage;
+
+    @Lob
     private byte[] frontInteriorImage;
+
+    @Lob
     private byte[] rearInteriorImage;
 }
