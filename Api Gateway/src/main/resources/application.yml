@@ -1,18 +1,11 @@
-server:
-  port: 9191
-
 spring:
-  application:
-    name: API-GATEWAY
   cloud:
     gateway:
-      routes:
-        - id: USER-SERVICE
-          uri: lb://USER-SERVICE
-          predicates:
-            - Path=/api/v1/user/**
-
-        - id: TRAVEL-PACKAGE-SERVICE
-          uri: lb://TRAVEL-PACKAGE-SERVICE
-          predicates:
-            - Path=/api/v1/travelPackage/**
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Credentials Access-Control-Allow-Origin
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
