@@ -16,12 +16,9 @@ import org.springframework.context.annotation.Configuration;
 public class WebAppConfig {
 
     @Bean
-    public ModelMapper setModelMapper(){
+    public ModelMapper modelMapper(){
         return new ModelMapper();
     }
 
-    @Bean
-    public ObjectMapper setObjectMapper(){
-        return new ObjectMapper();
-    }
+
 }
